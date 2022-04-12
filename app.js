@@ -30,3 +30,54 @@
 // }
 
 // fdsa = capWords()
+
+
+// 1. create a function that receives a string
+// 2. create a for loop that evaluates each letter
+// 3. track the current letter
+// 4. during for loop, evaluate whether this letter is the same as the last letter
+// 5. during for loop, if letter is the same as last letter, add one to a counter
+// 6. during for loop, if letter is not the sane as last letter, append counter and previous letter to a string variable
+// 7. restart counter
+// 8. after for loop, print string variable
+
+// function countLetters(){
+//     let inputString = prompt("Enter repeated letters randomly");
+//     let counter = 0;
+//     let newString = "";
+//     for(let i = 0; i < inputString.length+1; i++){
+//         let stringLetter = inputString[i];
+//         let lastLetter = inputString[i-1];
+//         if(stringLetter == lastLetter || i == 0) counter += 1;
+//         else {newString = newString.concat(`${counter}${lastLetter}`); counter = 1;}
+//     }
+//     console.log(newString);
+// }
+
+// let djfks = countLetters();
+
+// 1. create a function that receives a word
+// 2. check if input word is the same as reversed word using previously created reverse word function
+// 3. print out if the word is a palindrome
+
+
+
+// function revWord(inputWord){
+//     let word = inputWord;
+//     let returnWord = ""
+//     for(let i = 1; i < word.length+1; i++){
+//         returnWord = returnWord.concat(word[word.length-i]);
+//     }
+//     return returnWord;
+// }
+
+
+
+// function checkPalindrome(){
+//     inputWord = prompt("Please enter a word you think may be a palindrome")
+//     let checkWord = revWord(inputWord);
+//     if(inputWord == checkWord) console.log("You were right! Its a palindrome!");
+//     else console.log("You were wrong :(. It isn't a palindrome")
+// }
+
+// run = checkPalindrome()
